@@ -3,7 +3,7 @@ This app generates short love messages, which you can send to your partner and m
 It saves you loads of stress in touching your partner's soul.
 Make someone happy today, use the app.
 
-You can view the live version of the Love Message Generator on: https://ajibs.github.io/material-resume-blue/
+You can view the live version of the Love Message Generator on: https://ajibs.github.io/love-message-generator/
 
 ## Notes
 * The application was built with HTML, CSS, JavaScript, jQuery, Bootstrap and Font Awesome
