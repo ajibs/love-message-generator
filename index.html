@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Love Message Generator</title>
+		<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="vendor/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>	
+	<body onload="generateMessage()">
+		<div class="container-fluid wrapper">
+			<div class="row">
+				<h2><strong>Love Message Generator</strong></h2>
+				<p>Send short messages to your partner and make them happy.
+				<div class="col-xs-12 well">
+					<i class="fa fa-quote-left fa-lg" aria-hidden="true"></i>
+					<p id="messageDisplay"></p>
+					<i class="fa fa-quote-right fa-lg" aria-hidden="true"></i><br>
+				</div>
+				<div class="col-xs-12">
+					<button id="getMessage" onclick="generateMessage()" class="btn btn-lg button-bg">New Message</button>
+					<p>
+						Just copy and send through SMS or Whatsapp.<br>
+				SMS is highly encouraged, when was the last time you received an SMS that wasn't an Advert or a debit alert :)
+					</p>
+				</div>
+			</div>
+		</div>
+		<footer>Design by <a href="https://github.com/ajibs" target="_blank">Bolu Ajibawo</a></footer>
+	</body>
+	<script src="vendor/jQuery/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</html>
