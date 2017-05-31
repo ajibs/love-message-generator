@@ -12,10 +12,6 @@ h2{
 	text-transform: uppercase;
 }
 
-p {
-	margin-top: 8%;
-}
-
 .wrapper{
 	margin-bottom: 20%;
 }
@@ -24,6 +20,16 @@ p {
 	font-family: 'Courgette', cursive;	
 	font-size: 36px;
 	color: #2980b9;
+}
+
+.intro {
+	margin-top: 8%;
+}
+
+@media (min-width: 768px){
+	.intro{
+		margin-top: 5%;
+	}
 }
 
 .button-bg{
