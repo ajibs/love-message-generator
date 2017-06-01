@@ -1,4 +1,5 @@
-var messageLibrary, randomMessage;
+var messageLibrary;
+var randomMessage;
 messageLibrary = [
 "I love you",
 "I miss you",
@@ -20,23 +21,5 @@ messageLibrary = [
 "You are special",
 "You are mine to love and care for",
 "I appreciate You",
-"Without You, my world is empty",
+"Without You, my world is empty"
 ];
-// change "randomMessage" to reflect total number of new messages; 
-// start counting from 1
-
-
-function getRandomNumber(min, max){
-	return Math.floor(Math.random() * (max - min)) + min;
-};
-
-function generateMessage(){
-	randomMessage = getRandomNumber(0, 21);
-	document.getElementById("messageDisplay").innerHTML = messageLibrary[randomMessage];
-};
-
-$("#getMessage").on("click",function()
-{
-  $(this).css('background-color','#ffffff');
-  $(this).css('color','#333333');
-});
