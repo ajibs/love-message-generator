@@ -1,5 +1,12 @@
-var messageLibrary;
-var randomMessage;
+function getRandomNumber(e, o) {
+    return Math.floor(Math.random() * (o - e)) + e
+}
+
+function generateMessage() {
+    randomMessage = getRandomNumber(0, 21), document.getElementById("messageDisplay").innerHTML = messageLibrary[randomMessage]
+}
+var messageLibrary, randomMessage;
+
 messageLibrary = [
 "I love you",
 "I miss you",
